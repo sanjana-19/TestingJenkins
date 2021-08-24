@@ -2,6 +2,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.HashMap;
 
+import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Test;
 public class TraineeTesting {
 	@Test
@@ -30,7 +31,7 @@ public class TraineeTesting {
 	public void testFetchTrainee()
 	{
 	String result=Trainee.fetchTrainee(112);
-		assertEquals("sai",result);
+		assertEquals("priyanka",result);
 	}
 	@Test
 	public void testFetchallTrainee()
