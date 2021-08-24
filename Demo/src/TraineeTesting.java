@@ -23,7 +23,7 @@ public class TraineeTesting {
 	public void testRemoveTrainee()
 	{
 		int result=Trainee.removeTrainee(113);
-		assertEquals(2,result);
+		assertEquals(1,result);
 				
 	}
 	@Test
