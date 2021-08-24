@@ -30,7 +30,7 @@ public class TraineeTesting {
 	public void testFetchTrainee()
 	{
 	String result=Trainee.fetchTrainee(112);
-		assertEquals("priyanka",result);
+		assertEquals("sai",result);
 	}
 	@Test
 	public void testFetchallTrainee()
